@@ -1,9 +1,11 @@
+PATH = ${HOME}/.local/bin
+
 install:
-	gcc forLockscreen.c -o forLockscreen
-	gcc forWallpaper.c -o forWallpaper
+	gcc forLockscreen.c -o $(PATH)/forLockscreen
+	gcc forWallpaper.c -o $(PATH)/forWallpaper
 run:
-	./forLockscreen
-	./forWallpaper
+	$(PATH)/forLockscreen
+	$(PATH)/forWallpaper
 clean:
-	rm -f forLockscreen
-	rm -f forWallpaper
+	rm -f $(PATH)/forLockscreen
+	rm -f $(PATH)/forWallpaper
