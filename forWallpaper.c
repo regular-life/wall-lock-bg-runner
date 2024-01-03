@@ -42,20 +42,20 @@ void processEssid()
         {
             // Run the specified command if ESSID is "LAPTOP-S"
             printf("ESSID is LAPTOP-S. Running the specified command.\n") ;
-            system("feh --recursive --bg-fill --randomize /home/yash/walls/") ;
+            system("wal -i /home/yash/walls/") ;
             // system("betterlockscreen -u /home/yash/walls/")  ;
         }
         else 
         {
             printf("ESSID is not LAPTOP-S. Running the specified command.\n") ;
-            system("feh --recursive --bg-fill --randomize /home/yash/walls/1") ;
+            system("wal -i /home/yash/walls/1") ;
             // system("betterlockscreen -u /home/yash/walls/1")  ;
         }
     }
     else 
     {
         printf("Not connected to a Wi-Fi network.\n") ;
-        system("feh --recursive --bg-fill --randomize /home/yash/walls/1") ;
+        system("wal -i /home/yash/walls/1") ;
         // system("betterlockscreen -u /home/yash/walls/1")  ;
     }
 

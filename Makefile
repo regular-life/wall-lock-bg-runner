@@ -6,6 +6,7 @@ install:
 run:
 	$(PATH)/forLockscreen
 	$(PATH)/forWallpaper
+	py $(PATH)/ColorScheme.py
 clean:
 	rm -f $(PATH)/forLockscreen
 	rm -f $(PATH)/forWallpaper
