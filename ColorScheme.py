@@ -46,35 +46,41 @@ static char urgfloatcolor[]              = "{}";
         json_data["colors"]["color15"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
+        
         json_data["colors"]["color15"],
         json_data["colors"]["color1"],
         json_data["colors"]["color1"],
         json_data["colors"]["color1"],
+        
         json_data["colors"]["color15"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
-        json_data["colors"]["color15"],
+        
         json_data["colors"]["color15"],
         json_data["colors"]["color1"],
         json_data["colors"]["color1"],
+        json_data["colors"]["color1"],
+        
         json_data["colors"]["color15"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
-        json_data["colors"]["color15"],
+        
         json_data["colors"]["color15"],
         json_data["colors"]["color1"],
         json_data["colors"]["color1"],
+        json_data["colors"]["color1"],
+        
         json_data["colors"]["color15"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
         json_data["colors"]["color0"],
-        json_data["colors"]["color15"],
+        
+        json_data["colors"]["color1"],
         json_data["colors"]["color15"],
         json_data["colors"]["color1"],
         json_data["colors"]["color1"],
-        json_data["colors"]["color15"],
     )
     return color_h_content
 
